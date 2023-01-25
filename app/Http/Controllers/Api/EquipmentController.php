@@ -66,7 +66,7 @@ class EquipmentController extends Controller
     {
         // WARNING:
         // EquipmentRequest наследуется от FormRequest что прерывает выполнение
-        // store метода в контроллере, если использовать type-hitting.
+        // store метода в контроллере, если использовать type-hinting.
         // Есть ли вообще такое решение, при котором EquipmentRequest не
         // прерывает свое выполнение, если не проходит валидацию? Мб создатель ТЗ ошибся?
         // Делаю в лоб.
